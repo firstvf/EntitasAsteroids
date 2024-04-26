@@ -5,5 +5,5 @@ using UnityEngine;
 [Game, Unique]
 public class GameSetup : ScriptableObject
 {
-    [SerializeField] private GameObject _player;
+    public GameObject Player;
 }
