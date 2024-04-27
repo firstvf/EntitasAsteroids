@@ -6,4 +6,5 @@ using UnityEngine;
 public class GameSetup : ScriptableObject
 {
     public GameObject Player;
+    public float RotationSpeed = 180f;
 }
