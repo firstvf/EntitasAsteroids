@@ -13,5 +13,20 @@ MonoBehaviour:
   m_Name: Game Setup
   m_EditorClassIdentifier: 
   Player: {fileID: 510084714106951652, guid: 3113fb99a130fe545ab993237386a43c, type: 3}
+  Laser: {fileID: 1590953274808425677, guid: 4f858a600c89d0f44bf2fb722ed6d539, type: 3}
   RotationSpeed: 180
   MovementSpeed: 3
+  BigMeteors:
+  - {fileID: 2750671228468839171, guid: 5ea7a6adbf584c749b806a5452d425fa, type: 3}
+  - {fileID: 3926056966910033934, guid: 163cd86093444df4b94582abc9f95e09, type: 3}
+  - {fileID: 1198646497212175990, guid: 7bd976afdf3a74c4986415df7ea56477, type: 3}
+  - {fileID: 1726795620374926811, guid: cdcbe448773f36746a147dc8676b70d0, type: 3}
+  MediumMeteors:
+  - {fileID: 7578336456403395657, guid: 45e5278ff3d34194fa476be3f4f99a90, type: 3}
+  - {fileID: 253659497600005554, guid: 7d97996321920f24389c6326007fd596, type: 3}
+  SmallMeteors:
+  - {fileID: 212044639268308526, guid: f73e056f5d4f75944a09bfff52ea59de, type: 3}
+  - {fileID: 4496389337323430335, guid: 0401e919b8727304eb5d2e634880c43b, type: 3}
+  TinyMeteors:
+  - {fileID: 8619194744844453840, guid: 25d10b2ba685fe04f99728fe55e8d763, type: 3}
+  - {fileID: 1927050032436549411, guid: ed27d62569ab0714285972cab00821a7, type: 3}
