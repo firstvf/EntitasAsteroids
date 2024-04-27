@@ -17,5 +17,6 @@ public class InitializePlayerSystem : IInitializeSystem
         entity.AddResource(_contexts.game.gameSetup.value.Player);
 
         entity.AddInitialPosition(Vector3.zero);
+        entity.AddAcceleration(Vector3.zero);
     }
 }

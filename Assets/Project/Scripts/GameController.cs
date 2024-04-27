@@ -27,7 +27,11 @@ public class GameController : MonoBehaviour
 
             .Add(new InitializePlayerSystem(contexts))
             .Add(new InstantiateViewSystem(contexts))
+
             .Add(new RotatePlayerSystem(contexts))
+            .Add(new ReplaceAccelerationSystem(contexts))
+
+            .Add(new MoveSystem(contexts))
             ;
     }
 }

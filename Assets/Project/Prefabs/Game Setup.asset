@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: Game Setup
   m_EditorClassIdentifier: 
   Player: {fileID: 510084714106951652, guid: 3113fb99a130fe545ab993237386a43c, type: 3}
+  RotationSpeed: 180
+  MovementSpeed: 3

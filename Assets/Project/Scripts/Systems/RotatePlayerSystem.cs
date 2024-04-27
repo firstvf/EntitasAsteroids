@@ -23,7 +23,7 @@ public class RotatePlayerSystem : IExecuteSystem
 
         var playerRotation = playerTransform.rotation.eulerAngles;
 
-        playerRotation.z -= input * _contexts.game.gameSetup.value.RotationSpeed * Time.deltaTime;
+        playerRotation.z -= input * _contexts.game.gameSetup.value.RotationSpeed * Time.deltaTime;            
         playerTransform.rotation = Quaternion.Euler(playerRotation);
     }
 }
