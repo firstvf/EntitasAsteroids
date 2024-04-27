@@ -15,7 +15,9 @@ MonoBehaviour:
   Player: {fileID: 510084714106951652, guid: 3113fb99a130fe545ab993237386a43c, type: 3}
   Laser: {fileID: 1590953274808425677, guid: 4f858a600c89d0f44bf2fb722ed6d539, type: 3}
   RotationSpeed: 180
-  MovementSpeed: 3
+  MovementSpeed: 1.5
+  LaserSpeed: 10
+  AsteroidSpeed: 0.3
   BigMeteors:
   - {fileID: 2750671228468839171, guid: 5ea7a6adbf584c749b806a5452d425fa, type: 3}
   - {fileID: 3926056966910033934, guid: 163cd86093444df4b94582abc9f95e09, type: 3}

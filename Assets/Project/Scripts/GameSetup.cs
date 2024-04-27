@@ -11,6 +11,8 @@ public class GameSetup : ScriptableObject
     public float MovementSpeed = 5f;
     public float LaserSpeed = 10f;
 
+    public float AsteroidSpeed = 0.3f;
+
     public GameObject[] BigMeteors;
     public GameObject[] MediumMeteors;
     public GameObject[] SmallMeteors;
