@@ -21,6 +21,7 @@ public class ShootSystem : IExecuteSystem
             var playerForward = playerTransform.up;
             entity.AddAcceleration(playerForward * setup.LaserSpeed);
             entity.AddInitialPosition(playerTransform.position);
+            entity.isLaser = true;
         }
     }
 }

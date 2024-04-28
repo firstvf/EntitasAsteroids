@@ -27,6 +27,13 @@ public class MapAsteroidLevelToResourcesSystem : ReactiveSystem<GameEntity>
         foreach (var entity in entities)
         {
             entity.AddResource(MapAsteroidLevelToResource(entity.asteroid.Level, setup));
+            var speed = _contexts.game.gameSetup.value.AsteroidSpeed;
+
+            var randomAngle = Random.Range(-2f, 2f);
+
+            entity.AddAcceleration(new Vector3(
+                speed * Mathf.Cos(randomAngle),
+                speed * Mathf.Sin(randomAngle), 0f));
         }
     }
 
